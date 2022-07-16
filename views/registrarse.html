@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="../Img/retro_A&G.png" type="image/x-icon">
+<link rel = "stylesheet" href = "../css/styles.css">
+<title>Retro A&G|Registrarse</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1> Registrarse</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="quienesSomos.html">Quienes somos</a></li>
+                <li><a href="queBuscamos.html">Que buscamos</a></li>
+                <li><a href="registrarse.html">Registrarse</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="formulario">
+        <fieldset>
+            <legend> Datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+            <br>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+            <br>
+            <br>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingresa tu mail" required>
+            <br>
+            <br>
+            <label for="num">Número</label>
+            <input type="number" name="num" id="num" placeholder="Ingresa un número" required>
+            <br>
+            <br>
+            <label for="Pais">Pais</label>
+            <br>
+            <select name="Pais" id="Pais">
+                <option value=""> Seleccione su pais</option>
+                <option value="A"> Argentina</option>
+                <option value="U"> Uruguay</option>
+                <option value="B"> Brasil</option>
+                <option value="P"> Paraguay</option>
+                <option value="C"> Chile</option>
+                <option value="P"> Peru</option>
+                <option value="B"> Bolivia</option>
+            </select>
+            <br>
+            <br>
+            <!-- Checkbox -->
+            <div> Artículos de interes</div>
+            <input type="checkbox" name="cbox1"> Relojes
+            <input type="checkbox" name="cbox2"> Esculturas
+            <input type="checkbox" name="cbox3"> Piezas de oro
+            <input type="checkbox" name="cbox4"> Video juegos
+            <input type="checkbox" name="cbox5"> Nintendo
+            <input type="checkbox" name="cbox6"> PlayStation
+            <br>
+            <br>
+            <label for="comentario"> Comentarios sobre lo que buscan u ofrecen</label>
+            <br> <br>
+            <textarea name="comentario" id="comentario" cols="40" rows="10" maxlength="10"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Envia el formulario">
+            <input type="reset" value="Limpiar formulario">
+
+        </fieldset>
+    </form>
+    <footer>
+        <div class="margenfooter">
+          <div>
+              <h3 class="footersecciones">Quienes somos</h3>
+              <ul class="letrasfooter">
+                  <li><a href="#">Web design</a></li>
+                  <li><a href="#">Development</a></li>
+                  <li><a href="#">Hosting</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3 class="footersecciones">Que buscamos</h3>
+              <ul class="letrasfooter">
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Legacy</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3 class="footersecciones">Registrarse</h3>
+              <ul class="letrasfooter">
+                  <li><a href="#">Job openings</a></li>
+                  <li><a href="#">Employee success</a></li>
+                  <li><a href="#">Benefits</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3 class="footersecciones">Faqs</h3>
+              <ul class="letrasfooter">
+                  <li><a href="#">Web design</a></li>
+                  <li><a href="#">Development</a></li>
+                  <li><a href="#">Hosting</a></li>
+              </ul>
+          </div>
+          <div>
+              <h3 class="footersecciones">Contactos</h3>
+              <ul class="letrasfooter">
+                  <li><a href="#">Web design</a></li>
+                  <li><a href="#">Development</a></li>
+                  <li><a href="#">Hosting</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+              <p class="copyright">R&G © 2022</p>
+          </div>
+        </div>
+    </footer>
+</body>
+
+</html>
